@@ -8,7 +8,6 @@ app.listen(3000,()=>{
     console.log("server ready" + 3000);
 })
    
-
 // some step use node js 
 // / asynchronous / non-blocking 
 // synchronous  / blocking 
