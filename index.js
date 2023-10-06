@@ -10,7 +10,6 @@ app.listen(3000,()=>{
 })
    
 
-
 // some step use node js 
 // / asynchronous / non-blocking 
 // synchronous  / blocking 
