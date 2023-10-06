@@ -4,7 +4,6 @@ app.get("/hi", (req ,res)=>{
     res.send("Server ready to Go hello")
 // req.send()
 })
-
 app.listen(3000,()=>{
     console.log("server ready" + 3000);
 })
