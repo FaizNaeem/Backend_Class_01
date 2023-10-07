@@ -30,7 +30,6 @@ app.get("/about", (req ,res)=>{
         status :200,
         massage :"About working"
     })
-    
 })
 
 
