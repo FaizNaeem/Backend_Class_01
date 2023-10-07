@@ -15,6 +15,7 @@ app.get("/hi", (req ,res)=>{
 })
 app.use('/user', user)
 app.use(morgan("tiny"))
+app.use(express.json())
 // get user id using params 
 // app.get('/user/:id', (req, res) => {
 //     console.log('console.log-->', req.params.id)
