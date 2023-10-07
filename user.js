@@ -47,9 +47,9 @@ router.get('/:id',(req, res)=>{
     }
 })
 router.post('/', (req, res) => {
-    console.log(req.body)
-    user.push({name :req.body.name , id : user.length + 1 })
-    res.status(200).send({ status: 200, user : {name :req.body.Name , id : user.length + 1 } })
+    console.log(req)
+    // user.push({Name :req.body.Name , id : user.length + 1 })
+    // res.status(200).send({ status: 200, user : {Name :req.body.Name , id : user.length + 1 } })
 
 })
 module.exports= router
