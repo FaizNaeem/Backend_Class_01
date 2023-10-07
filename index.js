@@ -31,7 +31,6 @@ app.get("/about", (req ,res)=>{
         massage :"About working"
     })
     
-
 })
 
 
