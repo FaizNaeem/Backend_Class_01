@@ -3,7 +3,9 @@ var app = express()
 const user = require("./user");
 const morgan = require("morgan");
 
-
+app.use(morgan("tiny"))
+app.use(express.json())
+app.use('/user', user)
 const middelever=(req ,res , next)=>{
 console.log("Middlewere console");
 next()
@@ -13,9 +15,7 @@ app.get("/hi", (req ,res)=>{
     res.send("Server ready to Go hello")
 
 })
-app.use('/user', user)
-app.use(morgan("tiny"))
-app.use(express.json())
+
 // get user id using params 
 // app.get('/user/:id', (req, res) => {
 //     console.log('console.log-->', req.params.id)
