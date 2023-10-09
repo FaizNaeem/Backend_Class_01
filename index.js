@@ -15,7 +15,6 @@ app.get("/hi", (req ,res)=>{
     res.send("Server ready to Go hello")
 
 })
-
 // get user id using params 
 // app.get('/user/:id', (req, res) => {
 //     console.log('console.log-->', req.params.id)
