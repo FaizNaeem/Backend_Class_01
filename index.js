@@ -55,7 +55,6 @@ app.listen(3000,()=>{
 // step 05 -->: Run Terminal / nodemon index.js
 // step 06 --> : Install Thunder Client Extention And Go to Thander Client and click new Request and paste url 
 
-
 // Javascript Client Side rendering
 // Node.js Server Side rendering
 
