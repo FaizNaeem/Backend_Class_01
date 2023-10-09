@@ -2,7 +2,6 @@ const express = require("express")
 var app = express()
 const user = require("./user");
 const morgan = require("morgan");
-
 app.use(morgan("tiny"))
 app.use(express.json())
 app.use('/user', user)
